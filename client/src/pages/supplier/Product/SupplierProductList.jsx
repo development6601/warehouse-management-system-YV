@@ -191,29 +191,6 @@ const SupplierProductList = () => {
                         View
                     </Button>
 
-
-                    <Button
-                        onClick={() =>
-                            navigate(
-                                `/supplier/products/${record._id}/edit`
-                            )
-                        }
-                    >
-                        Edit
-                    </Button>
-
-
-                    <Button
-                        onClick={() =>
-                            navigate(
-                                `/supplier/products/${record._id}/stock-history`
-                            )
-                        }
-                    >
-                        Stock History
-                    </Button>
-
-
                     <Popconfirm
                         title="Delete product?"
                         description="Are you sure you want to delete this product?"
