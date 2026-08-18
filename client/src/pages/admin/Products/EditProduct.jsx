@@ -88,13 +88,6 @@ const EditProduct = () => {
                 </Form.Item>
 
                 <Form.Item
-                    name="category"
-                    label="Category"
-                >
-                    <Input />
-                </Form.Item>
-
-                <Form.Item
                     name="price"
                     label="Price"
                 >
