@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: "https://warehouse-management-system-yv.onrender.com/",
+  origin: process.env.ORIGIN_URL,
   credentials: true
 }))
 
